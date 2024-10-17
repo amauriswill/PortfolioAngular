@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
-import { WorkComponent } from "../work/work.component";
+import { WorkComponent } from "./work/work.component";
 
 @Component({
   selector: "app-root",
@@ -11,4 +11,6 @@ import { WorkComponent } from "../work/work.component";
 })
 export class AppComponent {
   title = "Portfolio Angular";
+
+  name: string = "amauricio";
 }
